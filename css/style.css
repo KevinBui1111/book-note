@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,700&display=swap');
+
+body {
+    font-family: 'Nunito';
+    margin: 0.17em;
+    font-size: 1.1em;
+}
+#main {
+    text-align:justify;
+}
+#control {
+    position: fixed;
+    width: 16em;
+    background-color: lightgray;
+    padding: .2em;
+}
+input[type=text], select {
+    font: inherit;
+    padding: .1em;
+    border: solid 1px #D8D8D8;
+    width: 13.4em;
+    box-sizing: inherit;
+    margin-bottom:.2em;
+}
+input[type=button] {
+    font: inherit;
+}
+code.comment {
+    color: darkgray;
+}
+h1,h2,p.title
+{
+    font-family: 'Open Sans';
+    color: royalblue;
+    margin: 0;
+    font-variation-settings: "wdth" 75;
+    font-weight: 700;
+}
+h1 {
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 1.2em;
+}
+p {
+    margin-top: 0;
+}
+p.line {
+    border-top: solid cornflowerblue thin;
+    margin: 0;
+    line-height: .5em;
+}
+p.title {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hidden {
+    display: none;
+}
+.width100 {
+    width: 100%;
+    margin-bottom:.2em;
+}
+.width-symbol {
+    width: 2em;
+}
+.main-margin {
+    margin-left: 17em;
+}

@@ -1,0 +1,10 @@
+@import url("style.css");
+@import url("myriadpro/myriadpro.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: 'Nunito Sans';
+}
+h1,h2,p.title{
+    font-family: 'Myriad Pro Cond';
+}

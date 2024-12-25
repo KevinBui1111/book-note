@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.bmp binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.png binary
+
+*.ttf   binary
+*.eot   binary
+*.woff  binary
+*.woff2 binary
+
+*.doc   binary
+*.docx  binary
+*.pdf   binary
+*.rtf   binary
+*.dll   binary
